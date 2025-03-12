@@ -10,6 +10,12 @@ Take the B1 code captured via
 rfaw 177
 ````
 
+Run via docker;
+
+````
+docker run -it -p 8000:8000 smck83/bbconv-fastapi
+````
+
 Pass just the code to this API
 
 ````
