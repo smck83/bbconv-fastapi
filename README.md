@@ -15,3 +15,11 @@ Pass just the code to this API
 ````
 http://localhost:8000/convert?b1_signal=<B1_SIGNAL>
 ````
+
+Response:
+
+````
+{
+  "b0_signal": "AA B0 21 03 08 01A4 0492 30B6 28181908181819081819090908190819090909081818181909 55"
+}
+````
