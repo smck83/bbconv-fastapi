@@ -7,7 +7,6 @@ RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y --no-ins
     && mkdir -p ${MY_APP_PATH}/data
 
 ADD main.py requirements.txt run.py ${MY_APP_PATH}
-#RUN curl -o ${MY_APP_PATH}/public_suffix_list.dat https://publicsuffix.org/list/public_suffix_list.dat
 RUN pip install -r ${MY_APP_PATH}/requirements.txt
 WORKDIR ${MY_APP_PATH}
 
